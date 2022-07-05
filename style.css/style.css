@@ -1,7 +1,8 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 .hero-section {
@@ -19,7 +20,7 @@ a {
 }
 .pera {
   color: #fff;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   word-spacing: 2px;
   line-height: 25px;
 }
@@ -29,11 +30,72 @@ a {
   color: #fff;
   border-radius: 5px;
 }
+
+/* hero writing box h1 font size  */
+/* hero writing box h1 font size  */
 .hero-writing-box h1 {
   font-size: 6rem;
   color: #fff;
+  padding-bottom: 30px;
 }
 
 .hero-writing-box {
   text-align: center;
+}
+
+.today-donet {
+  text-align: center;
+}
+.today-donet h1 {
+  font-size: 3rem;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.donet-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donet-amount-box {
+  padding: 25px 15px;
+  background: rgba(243, 239, 240, 0.356);
+  margin: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.donet-amount-box h1 {
+  color: rgba(46, 39, 39, 0.603);
+  font-weight: 600;
+}
+.donet-section {
+  margin-bottom: 100px;
+}
+.donet-pera {
+  color: #000;
+}
+#donet-active {
+  border: 2px solid rgb(204, 173, 163);
+  background-color: rgb(238, 238, 238);
+}
+#donet-active-h1 {
+  color: rgb(182, 129, 31);
+  font-weight: 600;
+}
+.donet-input-box {
+  text-align: center;
+}
+.donet-input-item {
+  width: 500px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(228, 222, 222, 0.795);
+  outline: none;
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+::placeholder {
+  text-align: center;
+  color: rgba(196, 160, 95, 0.678);
 }
