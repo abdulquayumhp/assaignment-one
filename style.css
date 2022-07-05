@@ -183,3 +183,45 @@ a {
 #self-practice-id-two {
   border-top: 2px solid crimson;
 }
+
+/* self practice end  */
+/* self practice end  */
+/* self practice end  */
+/* self practice end  */
+/* self practice end  */
+/* self practice end  */
+.help-section-container {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.help-section-box {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.help-section-box-one img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.help-section-box-two {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(235, 223, 223);
+  padding: 15px 15px 0 15px;
+  text-align: left;
+}
+.help-section-box-two p {
+  padding-bottom: 40px;
+  word-spacing: 2px;
+  color: rgba(0, 0, 0, 0.678);
+}
+.help-button {
+  padding: 10px 20px;
+  background: orange;
+  color: #fff;
+}
