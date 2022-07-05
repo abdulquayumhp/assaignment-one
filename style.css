@@ -1,7 +1,9 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Satisfy', cursive; */
-
 /* font family  */
+/* all  */
+/* font-family: 'Montserrat', sans-serif;
+
+/* footer  */
+/* font-family: 'Satisfy', cursive;  */
 
 /* global selector  */
 * {
@@ -26,7 +28,14 @@ a {
   color: #fff;
   border-radius: 5px;
 }
-
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  font-size: 3rem;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 /* globali selector  */
 /* globali selector  */
 /* hero sectio   */
@@ -57,14 +66,6 @@ a {
 /* donet sectio end  */
 /* donet sectio end  */
 
-.today-donet {
-  text-align: center;
-}
-.today-donet h1 {
-  font-size: 3rem;
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
 /* amount  */
 .donet-amount {
   display: flex;
@@ -90,7 +91,7 @@ a {
 }
 /* peregrap color ta  */
 /* peregrap color ta  */
-.donet-pera {
+.heading-pera {
   color: #000;
 }
 /* id diye actice kora no holo  */
@@ -307,6 +308,7 @@ a {
 /* ::placeholder {
   text-align: left;
 } */
+/* button  becouse its input type submit it's not a button */
 .subscribe-button {
   outline: none;
   height: 40px;
@@ -316,6 +318,15 @@ a {
   color: #fff;
   font-size: 1rem;
 }
+
+/* subscribe section end  */
+/* subscribe section end  */
+/* subscribe section end  */
+/* subscribe section end  */
+/* subscribe section end  */
+/* subscribe section end  */
+
+/* full box  */
 .footer {
   height: 200px;
   background: #000;
@@ -324,6 +335,8 @@ a {
   justify-content: center;
   align-items: center;
 }
+/* footer h1  */
+/* footer h1  */
 .footer-container h1 {
   color: crimson;
   font-style: italic;
@@ -336,3 +349,4 @@ a {
   font-size: 1rem;
   color: rgba(236, 218, 218, 0.63);
 }
+/* end  */
