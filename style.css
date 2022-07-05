@@ -136,3 +136,50 @@ a {
 .donet-plan-box p {
   padding-right: 30px;
 }
+
+/* donet plan box end  */
+/* donet plan box end  */
+/* donet plan box end  */
+/* donet plan box end  */
+/* donet plan box end  */
+
+.self-practice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.self-practice-box {
+  width: 400px;
+  height: 450px;
+  padding: 30px 0 0 20px;
+  background: rgb(250, 247, 247);
+  margin: 0 20px;
+  box-shadow: rgba(41, 45, 49, 0.2) 0px 8px 24px;
+}
+#self-practice-img img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  border: 10px solid rgb(250, 247, 247);
+}
+.self-practice-box a {
+  font-size: 1.2rem;
+  color: #000;
+}
+.self-practice-empty-box {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 30%;
+  background: rgb(238, 238, 238);
+  height: 1px;
+}
+.self-practice-box p {
+  padding-top: 20px;
+}
+#self-practice-id-one {
+  border-bottom: 2px solid blue;
+}
+#self-practice-id-two {
+  border-top: 2px solid crimson;
+}
